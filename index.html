@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blocking</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <p>
+      (För att trigga onchange-eventet på inputen nedan måste man använda
+      piltangenterna eller trycka 'Enter' när man skrivit en siffra)
+    </p>
+    <label>Ange ett personid</label>
+    <input type="number" id="personid" onchange="inputChange(event)" />
+    <ul id="placeholder"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
